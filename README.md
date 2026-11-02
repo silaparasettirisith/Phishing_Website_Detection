@@ -13,6 +13,8 @@ Five machine learning classification algorithms are implemented and evaluated to
 
 **Dataset:** Phishing Websites
 
+**Source:** [UCI Machine Learning Repository - Phishing Websites](https://archive.ics.uci.edu/dataset/327/phishing+websites)
+
 The dataset contains:
 - Total instances: 11,055
 - Input features: 30
@@ -64,11 +66,15 @@ The models are evaluated using the following metrics:
 
 ### Observations
 
-- SVM achieved the highest accuracy of 94.30%.
-- SVM also achieved the highest AUC, F1 Score, Recall and MCC.
-- Decision Tree achieved the highest precision among the models with strong overall performance.
-- Gaussian Naive Bayes achieved high precision but low recall, indicating that it missed many phishing websites.
-- Overall, SVM performed best in this experiment.
+| Model | Observation |
+|---|---|
+| Logistic Regression | Achieved strong, balanced performance, with 92.31% accuracy and 0.9782 AUC. |
+| Decision Tree | Achieved 95.23% precision and 93.13% accuracy, but its AUC (0.9396) was lower than the other stronger-performing models. |
+| KNN | Achieved 91.32% accuracy and 0.9648 AUC; it performed consistently, though below Logistic Regression and SVM on accuracy and F1 score. |
+| Gaussian Naive Bayes | Achieved 98.94% precision but only 30.19% recall, indicating that it missed many phishing websites. |
+| Support Vector Machine | Achieved the highest accuracy (94.30%), AUC (0.9845), recall (95.78%), F1 score (94.93%), and MCC (0.8845). |
+
+**Overall winner:** Support Vector Machine performed best overall in this experiment.
 
 ## 6. Project Structure
 
