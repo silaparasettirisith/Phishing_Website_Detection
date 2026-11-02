@@ -107,8 +107,8 @@ Phishing_Website_Detection/
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Credit_Approval_ML
+git clone https://github.com/silaparasettirisith/Phishing_Website_Detection.git
+cd Phishing_Website_Detection
 ```
 
 Create a virtual environment:
@@ -168,9 +168,9 @@ The application loads saved models and does not retrain them during prediction.
 
 ## 10. Links
 
-- **GitHub Repository:** Add your GitHub URL here.
-- **Live Streamlit Application:** Add your deployed Streamlit URL here.
-- **BITS Virtual Lab Screenshot:** Add screenshot under the `screenshots/` directory.
+- **GitHub Repository:** https://github.com/silaparasettirisith/Phishing_Website_Detection
+- **Live Streamlit Application:** https://phishingwebsitedetection-mqjdpnhhgvsud2oxvw2xgm.streamlit.app/
+- **BITS Virtual Lab Screenshot:** See the `screenshots/` directory.
 
 ## 11. Conclusion
 
